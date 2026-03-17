@@ -10,5 +10,6 @@ classDiagram
         +int calculateArea()
         +int calculatePerimeter(int width, int height)
     }
+  AreaCalculator ..> Rectangle : "creates and uses"
 
     
